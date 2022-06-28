@@ -82,13 +82,13 @@
 /*-- Variables --*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 :root {
-  --color-primary: #059DFF;
+  --color-primary:  #a4c472;
   --color-primary-rgba: rgb(5, 157, 255);
   --color-primary-alt: #059DFF;
   --color-primary-light: #059DFF;
   --color-primary-lightest: #059DFF;
-  --color-secondary: #FB5343;
-  --color-tertiary: #6549D5;
+  --color-secondary: #35a7ca;
+  --color-tertiary: #35ca7f;
   --color-tertiary-alt: #6549D5;
   --color-pink: #E33FA1;
   --color-light-green: #36C6F0;
@@ -113,7 +113,7 @@
   --color-lighter: #CED0D4;
   --color-lightest: #F0F2F5;
   --color-white: #ffffff;
-  --color-success: #3EB75E;
+  --color-success: #a4c472;
   --color-danger: #FF0003;
   --color-warning: #FF8F3C;
   --color-info: #1BA2DB;
@@ -7581,7 +7581,7 @@ textarea:-ms-input-placeholder {
 ==========================*/
 /* Theme Gradient */
 .theme-gradient, .counter-style-1 .count-number {
-  background: linear-gradient(95deg, var(--color-primary) 15%, var(--color-tertiary) 45%, var(--color-pink) 75%, var(--color-secondary) 100%) 98%/200% 100%;
+  background: linear-gradient(95deg, var(--color-primary) 15%, var(--color-tertiary) 45%, var(--color-secondary) 100%) 98%/200% 100%;
   text-transform: capitalize;
   -webkit-background-clip: text;
   background-clip: text;
@@ -7590,7 +7590,7 @@ textarea:-ms-input-placeholder {
 
 .bg-theme-gradient {
   background-color: transparent;
-  background-image: linear-gradient(90deg, var(--color-primary-lightest) 10%, var(--color-primary-alt) 50%, var(--color-tertiary-alt) 90%);
+  background-image: linear-gradient(90deg, var(--color-primary) 10%, var(--color-tertiary) 50%, var(--color-secondary) 90%);
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
@@ -9675,7 +9675,7 @@ div.btn-default {
   border-color: transparent;
   border-radius: 8px;
   background-color: transparent;
-  background: linear-gradient(95deg, var(--color-primary) 15%, var(--color-tertiary) 45%, var(--color-pink) 75%, var(--color-secondary) 100%) 95%/200% 100%;
+  background: linear-gradient(95deg, var(--color-primary) 15%, var(--color-tertiary) 45%, var(--color-secondary) 100%) 95%/200% 100%;
   transition-duration: 300ms;
   color: var(--color-white);
   font-size: 16px;
@@ -10383,7 +10383,7 @@ div.btn-default.rounded-player.sm-size {
   background: #6549D5;
 }
 .progress .progress-bar.bar-gradiand {
-  background: radial-gradient(circle farthest-corner at 0% 0%, var(--color-pink) 25%, var(--color-secondary) 45%, var(--color-primary) 65%, var(--color-light-green) 85%);
+  background: radial-gradient(circle farthest-corner at 0% 0%, var(--color-secondary) 45%, var(--color-primary) 65%, var(--color-light-green) 85%);
 }
 .progress .progress-number {
   position: absolute;
@@ -10636,7 +10636,7 @@ div.btn-default.rounded-player.sm-size {
   border: 1px solid var(--color-primary);
 }
 .social-default.with-gradient li a::after {
-  background: linear-gradient(95deg, var(--color-primary) 15%, var(--color-tertiary) 45%, var(--color-pink) 75%, var(--color-secondary) 100%) 95%/200% 100%;
+  background: linear-gradient(95deg, var(--color-primary) 15%, var(--color-tertiary) 45%, var(--color-secondary) 100%) 95%/200% 100%;
 }
 .social-default.with-bg-primary li a {
   background-color: var(--color-primary);
@@ -10740,7 +10740,7 @@ div.btn-default.rounded-player.sm-size {
 }
 .rn-box-card.border-gradient .thumbnail,
 .team-style-default.border-gradient .thumbnail {
-  background: linear-gradient(95deg, var(--color-primary) 15%, var(--color-tertiary) 45%, var(--color-pink) 75%, var(--color-secondary) 100%) 98%/200% 100%;
+  background: linear-gradient(95deg, var(--color-primary) 15%, var(--color-tertiary) 45%, var(--color-secondary) 100%) 98%/200% 100%;
   padding: 5px;
   border: 0 none;
 }
@@ -11129,7 +11129,7 @@ div.btn-default.rounded-player.sm-size {
   font-style: italic;
 }
 .testimonial-style-two .thumbnail {
-  background: linear-gradient(95deg, var(--color-primary) 15%, var(--color-tertiary) 45%, var(--color-pink) 75%, var(--color-secondary) 100%) 98%/200% 100%;
+  background: linear-gradient(95deg, var(--color-primary) 15%, var(--color-tertiary) 45%, var(--color-secondary) 100%) 98%/200% 100%;
   border-radius: 100%;
   padding: 10px;
 }
